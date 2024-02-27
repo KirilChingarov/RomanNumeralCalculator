@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1213FC52B8C89EE00AC09D5 /* RomanCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1213FC42B8C89EE00AC09D5 /* RomanCalculator.swift */; };
+		F1213FC72B8C969F00AC09D5 /* RomanNumeralConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1213FC62B8C969F00AC09D5 /* RomanNumeralConverter.swift */; };
+		F1213FC92B8DE43B00AC09D5 /* InputParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1213FC82B8DE43B00AC09D5 /* InputParser.swift */; };
+		F19369092B8B3CBD00A4E88A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19369082B8B3CBD00A4E88A /* main.swift */; };
+		F19369102B8B3D5600A4E88A /* RomanNumeral.swift in Sources */ = {isa = PBXBuildFile; fileRef = F193690F2B8B3D5600A4E88A /* RomanNumeral.swift */; };
+		F19369122B8B3E5200A4E88A /* MathematicalExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19369112B8B3E5200A4E88A /* MathematicalExpression.swift */; };
+		F19369142B8B403900A4E88A /* RomanNumeralParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19369132B8B403900A4E88A /* RomanNumeralParser.swift */; };
+		F19369162B8B4B9A00A4E88A /* RomanNumeralSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19369152B8B4B9A00A4E88A /* RomanNumeralSymbol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F19369032B8B3CBD00A4E88A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1213FC42B8C89EE00AC09D5 /* RomanCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanCalculator.swift; sourceTree = "<group>"; };
+		F1213FC62B8C969F00AC09D5 /* RomanNumeralConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralConverter.swift; sourceTree = "<group>"; };
+		F1213FC82B8DE43B00AC09D5 /* InputParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputParser.swift; sourceTree = "<group>"; };
+		F19369052B8B3CBD00A4E88A /* RomanCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RomanCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19369082B8B3CBD00A4E88A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F193690F2B8B3D5600A4E88A /* RomanNumeral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeral.swift; sourceTree = "<group>"; };
+		F19369112B8B3E5200A4E88A /* MathematicalExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathematicalExpression.swift; sourceTree = "<group>"; };
+		F19369132B8B403900A4E88A /* RomanNumeralParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralParser.swift; sourceTree = "<group>"; };
+		F19369152B8B4B9A00A4E88A /* RomanNumeralSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralSymbol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19369022B8B3CBD00A4E88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19368FC2B8B3CBD00A4E88A = {
+			isa = PBXGroup;
+			children = (
+				F19369072B8B3CBD00A4E88A /* RomanCalculator */,
+				F19369062B8B3CBD00A4E88A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19369062B8B3CBD00A4E88A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19369052B8B3CBD00A4E88A /* RomanCalculator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19369072B8B3CBD00A4E88A /* RomanCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F19369082B8B3CBD00A4E88A /* main.swift */,
+				F193690F2B8B3D5600A4E88A /* RomanNumeral.swift */,
+				F19369112B8B3E5200A4E88A /* MathematicalExpression.swift */,
+				F19369132B8B403900A4E88A /* RomanNumeralParser.swift */,
+				F19369152B8B4B9A00A4E88A /* RomanNumeralSymbol.swift */,
+				F1213FC42B8C89EE00AC09D5 /* RomanCalculator.swift */,
+				F1213FC62B8C969F00AC09D5 /* RomanNumeralConverter.swift */,
+				F1213FC82B8DE43B00AC09D5 /* InputParser.swift */,
+			);
+			path = RomanCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19369042B8B3CBD00A4E88A /* RomanCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F193690C2B8B3CBD00A4E88A /* Build configuration list for PBXNativeTarget "RomanCalculator" */;
+			buildPhases = (
+				F19369012B8B3CBD00A4E88A /* Sources */,
+				F19369022B8B3CBD00A4E88A /* Frameworks */,
+				F19369032B8B3CBD00A4E88A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanCalculator;
+			productName = RomanCalculator;
+			productReference = F19369052B8B3CBD00A4E88A /* RomanCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19368FD2B8B3CBD00A4E88A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F19369042B8B3CBD00A4E88A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = F19369002B8B3CBD00A4E88A /* Build configuration list for PBXProject "RomanCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19368FC2B8B3CBD00A4E88A;
+			productRefGroup = F19369062B8B3CBD00A4E88A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19369042B8B3CBD00A4E88A /* RomanCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19369012B8B3CBD00A4E88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1213FC72B8C969F00AC09D5 /* RomanNumeralConverter.swift in Sources */,
+				F1213FC92B8DE43B00AC09D5 /* InputParser.swift in Sources */,
+				F19369122B8B3E5200A4E88A /* MathematicalExpression.swift in Sources */,
+				F19369142B8B403900A4E88A /* RomanNumeralParser.swift in Sources */,
+				F19369162B8B4B9A00A4E88A /* RomanNumeralSymbol.swift in Sources */,
+				F19369102B8B3D5600A4E88A /* RomanNumeral.swift in Sources */,
+				F19369092B8B3CBD00A4E88A /* main.swift in Sources */,
+				F1213FC52B8C89EE00AC09D5 /* RomanCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F193690A2B8B3CBD00A4E88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F193690B2B8B3CBD00A4E88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F193690D2B8B3CBD00A4E88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F193690E2B8B3CBD00A4E88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19369002B8B3CBD00A4E88A /* Build configuration list for PBXProject "RomanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193690A2B8B3CBD00A4E88A /* Debug */,
+				F193690B2B8B3CBD00A4E88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F193690C2B8B3CBD00A4E88A /* Build configuration list for PBXNativeTarget "RomanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F193690D2B8B3CBD00A4E88A /* Debug */,
+				F193690E2B8B3CBD00A4E88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19368FD2B8B3CBD00A4E88A /* Project object */;
+}
