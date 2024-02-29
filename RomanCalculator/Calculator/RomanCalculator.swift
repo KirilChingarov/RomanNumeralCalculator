@@ -39,6 +39,10 @@ class RomanCalculator {
             return romanAddition(lhs: expression.lhs, rhs: expression.rhs)
         case .subtraction:
             return romanSubtraction(lhs: expression.lhs, rhs: expression.rhs)
+        case .multiplication:
+            return romanMultilplication(lhs: expression.lhs, rhs: expression.rhs)
+        case .division:
+            return romanDivision(lhs: expression.lhs, rhs: expression.rhs)
         }
     }
     
@@ -58,6 +62,10 @@ class RomanCalculator {
     }
     
     func romanSubtraction(lhs leftNumeral: RomanNumeral, rhs rightNumeral: RomanNumeral) -> RomanNumeral {
+        guard leftNumeral >= rightNumeral else {
+            return leftNumeral
+        }
+        
         lhs = RomanNumeralConverter.convertSubtractiveNotationToAdditive(leftNumeral)
         rhs = RomanNumeralConverter.convertSubtractiveNotationToAdditive(rightNumeral)
         
@@ -73,5 +81,35 @@ class RomanCalculator {
         let result = RomanNumeralConverter.simplify(lhs)
         
         return RomanNumeralConverter.convertAdditiveNotationToSubtractive(result)
+    }
+    
+    func romanMultilplication(lhs leftNumeral: RomanNumeral, rhs rightNumeral: RomanNumeral) -> RomanNumeral {
+        let romanOne = RomanNumeral(numerals: [.I])
+        var counter = romanSubtraction(lhs: rightNumeral, rhs: romanOne)
+        var result = leftNumeral
+        
+        while !counter.numerals.isEmpty {
+            result = romanAddition(lhs: result, rhs: leftNumeral)
+            counter = romanSubtraction(lhs: counter, rhs: romanOne)
+        }
+        
+        return result
+    }
+    
+    func romanDivision(lhs leftNumeral: RomanNumeral, rhs rightNumeral: RomanNumeral) -> RomanNumeral {
+        guard leftNumeral >= rightNumeral else {
+            return leftNumeral
+        }
+        
+        let romanOne = RomanNumeral(numerals: [.I])
+        var remainder = romanSubtraction(lhs: leftNumeral, rhs: rightNumeral)
+        var result = romanOne
+        
+        while !remainder.numerals.isEmpty && remainder >= rightNumeral {
+            remainder = romanSubtraction(lhs: remainder, rhs: rightNumeral)
+            result = romanAddition(lhs: result, rhs: romanOne)
+        }
+        
+        return result
     }
 }

@@ -71,16 +71,40 @@
 		F19369072B8B3CBD00A4E88A /* RomanCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				F1E9C9612B909BA900AECA46 /* Helpers */,
+				F1E9C9602B909B9000AECA46 /* Calculator */,
+				F1E9C95F2B909B7700AECA46 /* DataTypes */,
 				F19369082B8B3CBD00A4E88A /* main.swift */,
-				F193690F2B8B3D5600A4E88A /* RomanNumeral.swift */,
-				F19369112B8B3E5200A4E88A /* MathematicalExpression.swift */,
-				F19369132B8B403900A4E88A /* RomanNumeralParser.swift */,
+			);
+			path = RomanCalculator;
+			sourceTree = "<group>";
+		};
+		F1E9C95F2B909B7700AECA46 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
 				F19369152B8B4B9A00A4E88A /* RomanNumeralSymbol.swift */,
+				F19369112B8B3E5200A4E88A /* MathematicalExpression.swift */,
+				F193690F2B8B3D5600A4E88A /* RomanNumeral.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		F1E9C9602B909B9000AECA46 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
 				F1213FC42B8C89EE00AC09D5 /* RomanCalculator.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F1E9C9612B909BA900AECA46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F19369132B8B403900A4E88A /* RomanNumeralParser.swift */,
 				F1213FC62B8C969F00AC09D5 /* RomanNumeralConverter.swift */,
 				F1213FC82B8DE43B00AC09D5 /* InputParser.swift */,
 			);
-			path = RomanCalculator;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

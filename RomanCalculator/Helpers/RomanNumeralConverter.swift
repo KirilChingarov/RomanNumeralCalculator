@@ -167,7 +167,7 @@ class RomanNumeralConverter {
             }
             else {
                 let newNotation = convertAdditiveNotationToSubtractive(repeatingSymbol: romanNumeral)
-                converted.numerals.replaceSubrange(startingIndex...endingIndex, with: newNotation)
+                converted.numerals.replaceSubrange(startingIndex..<endingIndex, with: newNotation)
             }
         }
         

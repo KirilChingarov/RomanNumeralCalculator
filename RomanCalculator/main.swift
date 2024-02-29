@@ -8,7 +8,7 @@
 let calculator = RomanCalculator()
 
 while true {
-    print("Enter Roman Numeral Expression: ( XXX - I )")
+    print("Enter Roman Numeral Expression: ie. XXX - I")
     
     guard let input = readLine(),
           let romanNumeralExpression = InputParser.parseMathematicalExpression(from: input) else {
@@ -18,10 +18,4 @@ while true {
     
     let result = calculator.executeExpression(expression: romanNumeralExpression)
     print("Result: \(result.toString())")
-    
-    print("Continue... y/n")
-    if let continueInput = readLine(),
-       continueInput == "n" {
-        break
-    }
 }

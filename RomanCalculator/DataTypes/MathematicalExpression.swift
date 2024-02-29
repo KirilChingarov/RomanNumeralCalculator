@@ -8,6 +8,6 @@
 enum MathematicalExpression: String {
     case addition = "+"
     case subtraction = "-"
-//    case multiplication = "*"
-//    case division = "/"
+    case multiplication = "*"
+    case division = "/"
 }
